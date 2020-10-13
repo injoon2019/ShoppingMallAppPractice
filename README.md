@@ -35,5 +35,12 @@
             .setContentView(this)
     }
     
+------
+141p 에러나는 경우
+Server Application: 
+ url: jdbc:mysql://부록 따라서 aws에서 데이터베이스 만들고 엔드포인트:포트번호/스키마이름
+
+------
+
  추가할 것 sdsdsd
   
