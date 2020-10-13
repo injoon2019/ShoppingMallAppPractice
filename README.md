@@ -9,20 +9,19 @@
 </br>
 ------
 
-p.53 스프링과 연결되지 않을 경우</br>
+53p 스프링과 연결되지 않을 경우</br>
  p.57과 부록에 나오는 데이터 베이스 연결을 하지 않아서 그렇다 (책의 순서 문제)</br>
  부록에서 나오는 application.yml 파일 추가는 p.59에 있다.
  
 ------
-p.76 에러나는 경우</br>
+76p 에러나는 경우</br>
  implementation "androidx.constrainlayout:constraintlayout:2.0.0-beta2" -> implementation "androidx.constrainlayout:constraintlayout:2.0.0-beta4"
 ------
-p.136 "PreferenceManager depreceated"뜨는 경우</br>
+136p "PreferenceManager depreceated"뜨는 경우</br>
 큰 문제 없지만 build.gradle( Module: App) implementation 'androidx.preference:preference:1.1.1'추가하고
  package com.example.parayo.common 에서 import androidx.preference.PreferenceManager 로 교체
 ------
-
-p.140 에러나는 경우
+140p 에러나는 경우
 책에 SigninAcitivity의 onCreate가 빠져있다.
 
     override fun onCreate(savedInstanceState: Bundle?){
