@@ -15,8 +15,8 @@ p.53 스프링과 연결되지 않을 경우</br>
 ------
 p.76 에러나는 경우</br>
 implementation "androidx.constrainlayout:constraintlayout:2.0.0-beta2" -> implementation "androidx.constrainlayout:constraintlayout:2.0.0-beta4"
-
 ------
+
 p.136 "PreferenceManager depreceated"뜨는 경우</br>
 큰 문제 없지만 build.gradle( Module: App) implementation 'androidx.preference:preference:1.1.1'추가하고
 package com.example.parayo.common 에서 import androidx.preference.PreferenceManager 로 교체
