@@ -23,11 +23,13 @@ package com.example.parayo.common 에서 import androidx.preference.PreferenceMa
 
 p.140 에러나는 경우
 책에 SigninAcitivity의 onCreate가 빠져있다.
+
     override fun onCreate(savedInstanceState: Bundle?){
         super.onCreate(savedInstanceState)
 
         SigninActivityUI(getViewModel())
             .setContentView(this)
     }
-    추가할 것 
+    
+ 추가할 것 
   
