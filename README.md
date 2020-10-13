@@ -22,6 +22,7 @@
 136p "PreferenceManager depreceated"뜨는 경우
  큰 문제 없지만 build.gradle( Module: App) implementation 'androidx.preference:preference:1.1.1'추가하고
  package com.example.parayo.common 에서 import androidx.preference.PreferenceManager 로 교체
+ 
 ------
 
 140p 에러나는 경우
