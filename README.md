@@ -19,6 +19,7 @@
  implementation "androidx.constrainlayout:constraintlayout:2.0.0-beta2" -> implementation "androidx.constrainlayout:constraintlayout:2.0.0-beta4"
 ------
 </br>
+------
 136p "PreferenceManager depreceated"뜨는 경우
  큰 문제 없지만 build.gradle( Module: App) implementation 'androidx.preference:preference:1.1.1'추가하고
  package com.example.parayo.common 에서 import androidx.preference.PreferenceManager 로 교체
