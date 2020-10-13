@@ -35,5 +35,5 @@
             .setContentView(this)
     }
     
- 추가할 것 
+ 추가할 것 sdsdsd
   
