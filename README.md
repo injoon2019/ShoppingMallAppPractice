@@ -43,8 +43,16 @@ Server Application:
 ------
 148p 에러나는 경우
 
-navigationView 파트 에러나는 경우: 아직 답 못찾음
+navigationView 파트 에러나는 경우: 
 
+navigationView = navigationView{
+ ///
+} 이 아니라
+변수 선언하지 하지 않고 바로
+navigationView{
+}
+
+------
 이쯤에서 실제 안드로이드 디바이스랑 연결해봤다. 인터넷 연결을 같은 와이파이로 하고 방화벽을 꺼준다. 그리고 네트워크를 개인으로 돌려준다 
 그리고 ApiGenerator에서 const val HOST = "http://10.0.2.2:8080" 대신 const val HOST = "http://172.22.77.134:8080" 컴퓨터의 주소를 넣어준다. ipconfig로 쉽게 ipv4 찾을 수 있다. 
 
