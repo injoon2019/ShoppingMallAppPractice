@@ -57,6 +57,11 @@ navigationView{
 그리고 ApiGenerator에서 const val HOST = "http://10.0.2.2:8080" 대신 const val HOST = "http://172.22.77.134:8080" 컴퓨터의 주소를 넣어준다. ipconfig로 쉽게 ipv4 찾을 수 있다. 
 
 ------
+157p 에러나는 경우
+ProductMainActivity에서
+    private val ui by lazy { ProductMainUI(getViewModel())} 변수 선언을 먼저 해놔야하는데 책에 안나와있다
+------
+
 
  추가할 것 sdsdsd
   
