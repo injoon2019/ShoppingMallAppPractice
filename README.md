@@ -63,6 +63,9 @@ ProductMainActivity에서
     
 ------
 
-
+158p 에러나는 경우
+toolbar도 종류가 여러개가 있다. 또 androidx 를 써야하며, toolbar는 import org.jetbrains.anko.appcompat.v7.toolbar 를 써야한다
+    
+------
  추가할 것 sdsdsd
   
