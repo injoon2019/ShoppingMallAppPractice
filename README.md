@@ -60,6 +60,7 @@ navigationView{
 157p 에러나는 경우
 ProductMainActivity에서
     private val ui by lazy { ProductMainUI(getViewModel())} 변수 선언을 먼저 해놔야하는데 책에 안나와있다
+    
 ------
 
 
