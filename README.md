@@ -67,5 +67,11 @@ ProductMainActivity에서
 toolbar도 종류가 여러개가 있다. 또 androidx 를 써야하며, toolbar는 import org.jetbrains.anko.appcompat.v7.toolbar 를 써야한다
     
 ------
+
+184p 에러나는 경우
+product - registration에 ProductImageUploadResponse.kt를 먼저 만들어준다
+
+------
+
  추가할 것 sdsdsd
   
